@@ -1,7 +1,7 @@
 /* direct css, no ids/classes */
 
 body {
-    background: url(29sjts.jpg);
+    background: url(https://athdot.github.io/Creativity/29sjts.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
@@ -42,14 +42,14 @@ body {
     text-align: center;
 }
 
-#logo {
-    height: 25px
-}
-
 
 #navtable {
-    background: rgb(41, 128, 185);
+    background: rgba(41, 128, 185,0.8);
     width: 100%;
+height: 70px;
+position:fixed;
+top:0;
+left:0;
 }
 
 /* End of ids */
@@ -57,4 +57,53 @@ body {
 
 td.navtd {
     border-right: 1px solid RGB(151,144,138)
+}
+.textdiv{
+position:fixed;
+right:0;
+top:17px;
+font-size: 20px;
+}
+.icon-image{
+position:fixed;
+width: 130px;
+left: 30px;
+top: 10px;
+}
+a{
+text-decoration:none;
+position:fixed;
+top: 20px;
+}
+#write{
+position:fixed; right:490px;
+height: 70px;
+width: 80px;
+top:0;
+}
+
+div:hover{
+    background: rgba(41, 128, 185,0.8);
+}
+
+#photo{
+position:fixed; right: 330px;
+height: 70px;
+width: 160px;
+top:0;
+}
+#design{
+position:fixed; right: 170px;
+height: 70px;
+width: 160px;
+top:0;
+}
+#dev{
+position:fixed; right:0;
+height: 70px;
+width: 170px;
+top:0;
+}
+.learnhover:hover{
+background-color:transparent;
 }
