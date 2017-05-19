@@ -1,0 +1,60 @@
+/* direct css, no ids/classes */
+
+body {
+    background: url(29sjts.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    background-attachment: fixed;
+    font-family: Indie flower, cursive;
+    color: RGB(255,80,0)
+}
+
+#td1 {
+    background: rgb(41, 128, 185);
+    border-left: 1px solid RGB(151,144,138);
+    border-right: 1px solid RGB(151,144,138);
+}
+
+/* Ids */
+
+#h1a {
+    font-size: 150px;
+    margin-top: 160px;
+    margin-bottom: 0px;
+}
+
+#p1 {
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#p2 {
+    margin-top: 0px;
+    font-size: 20px;
+    
+}
+
+#section1 {
+    padding-top: 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#logo {
+    height: 25px
+}
+
+
+#navtable {
+    background: rgb(41, 128, 185);
+    width: 100%;
+}
+
+/* End of ids */
+/* Clases*/
+
+td.navtd {
+    border-right: 1px solid RGB(151,144,138)
+}
